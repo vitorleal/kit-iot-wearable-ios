@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20FAD41E-99E8-456B-9EB1-F8D889F40704</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kit Iot Wearable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C74C0CE47E98FA3659053C25546DB7CA8132920E</key>
+		<string>https://github.com/vitorleal/kit-iot-wearable-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kit Iot Wearable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C74C0CE47E98FA3659053C25546DB7CA8132920E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vitorleal/kit-iot-wearable-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C74C0CE47E98FA3659053C25546DB7CA8132920E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C74C0CE47E98FA3659053C25546DB7CA8132920E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kit-iot-wearable-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

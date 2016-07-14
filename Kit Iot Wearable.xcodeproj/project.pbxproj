@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527CD46E1ACC9DFC004425BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD46D1ACC9DFC004425BD /* AppDelegate.swift */; };
+		527CD4701ACC9DFC004425BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD46F1ACC9DFC004425BD /* ViewController.swift */; };
+		527CD4731ACC9DFC004425BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527CD4711ACC9DFC004425BD /* Main.storyboard */; };
+		527CD4751ACC9DFC004425BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527CD4741ACC9DFC004425BD /* Images.xcassets */; };
+		527CD4781ACC9DFC004425BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527CD4761ACC9DFC004425BD /* LaunchScreen.xib */; };
+		527CD4841ACC9DFD004425BD /* Kit_Iot_WearableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD4831ACC9DFD004425BD /* Kit_Iot_WearableTests.swift */; };
+		527CD4911ACCA056004425BD /* Wearable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD48F1ACCA056004425BD /* Wearable.swift */; };
+		527CD4921ACCA056004425BD /* WearableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD4901ACCA056004425BD /* WearableService.swift */; };
+		5295E6FA1AD4234E0006E073 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5295E6F91AD4234E0006E073 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527CD47E1ACC9DFC004425BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527CD4601ACC9DFC004425BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527CD4671ACC9DFC004425BD;
+			remoteInfo = "Kit Iot Wearable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527CD4681ACC9DFC004425BD /* Kit Iot Wearable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kit Iot Wearable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527CD46C1ACC9DFC004425BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527CD46D1ACC9DFC004425BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527CD46F1ACC9DFC004425BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527CD4721ACC9DFC004425BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527CD4741ACC9DFC004425BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		527CD4771ACC9DFC004425BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		527CD47D1ACC9DFC004425BD /* Kit Iot WearableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kit Iot WearableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527CD4821ACC9DFD004425BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527CD4831ACC9DFD004425BD /* Kit_Iot_WearableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kit_Iot_WearableTests.swift; sourceTree = "<group>"; };
+		527CD48F1ACCA056004425BD /* Wearable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wearable.swift; sourceTree = "<group>"; };
+		527CD4901ACCA056004425BD /* WearableService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WearableService.swift; sourceTree = "<group>"; };
+		5295E6F91AD4234E0006E073 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527CD4651ACC9DFC004425BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527CD47A1ACC9DFC004425BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527CD45F1ACC9DFC004425BD = {
+			isa = PBXGroup;
+			children = (
+				5295E6F91AD4234E0006E073 /* Settings.bundle */,
+				527CD46A1ACC9DFC004425BD /* Kit Iot Wearable */,
+				527CD4801ACC9DFC004425BD /* Kit Iot WearableTests */,
+				527CD4691ACC9DFC004425BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527CD4691ACC9DFC004425BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527CD4681ACC9DFC004425BD /* Kit Iot Wearable.app */,
+				527CD47D1ACC9DFC004425BD /* Kit Iot WearableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527CD46A1ACC9DFC004425BD /* Kit Iot Wearable */ = {
+			isa = PBXGroup;
+			children = (
+				527CD46D1ACC9DFC004425BD /* AppDelegate.swift */,
+				527CD46F1ACC9DFC004425BD /* ViewController.swift */,
+				527CD4741ACC9DFC004425BD /* Images.xcassets */,
+				527CD4711ACC9DFC004425BD /* Main.storyboard */,
+				527CD4761ACC9DFC004425BD /* LaunchScreen.xib */,
+				527CD48F1ACCA056004425BD /* Wearable.swift */,
+				527CD4901ACCA056004425BD /* WearableService.swift */,
+				527CD46B1ACC9DFC004425BD /* Supporting Files */,
+			);
+			path = "Kit Iot Wearable";
+			sourceTree = "<group>";
+		};
+		527CD46B1ACC9DFC004425BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527CD46C1ACC9DFC004425BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		527CD4801ACC9DFC004425BD /* Kit Iot WearableTests */ = {
+			isa = PBXGroup;
+			children = (
+				527CD4831ACC9DFD004425BD /* Kit_Iot_WearableTests.swift */,
+				527CD4811ACC9DFD004425BD /* Supporting Files */,
+			);
+			path = "Kit Iot WearableTests";
+			sourceTree = "<group>";
+		};
+		527CD4811ACC9DFD004425BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527CD4821ACC9DFD004425BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527CD4671ACC9DFC004425BD /* Kit Iot Wearable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527CD4871ACC9DFD004425BD /* Build configuration list for PBXNativeTarget "Kit Iot Wearable" */;
+			buildPhases = (
+				527CD4641ACC9DFC004425BD /* Sources */,
+				527CD4651ACC9DFC004425BD /* Frameworks */,
+				527CD4661ACC9DFC004425BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kit Iot Wearable";
+			productName = "Kit Iot Wearable";
+			productReference = 527CD4681ACC9DFC004425BD /* Kit Iot Wearable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527CD47C1ACC9DFC004425BD /* Kit Iot WearableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527CD48A1ACC9DFD004425BD /* Build configuration list for PBXNativeTarget "Kit Iot WearableTests" */;
+			buildPhases = (
+				527CD4791ACC9DFC004425BD /* Sources */,
+				527CD47A1ACC9DFC004425BD /* Frameworks */,
+				527CD47B1ACC9DFC004425BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527CD47F1ACC9DFC004425BD /* PBXTargetDependency */,
+			);
+			name = "Kit Iot WearableTests";
+			productName = "Kit Iot WearableTests";
+			productReference = 527CD47D1ACC9DFC004425BD /* Kit Iot WearableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527CD4601ACC9DFC004425BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Telefonica VIVO";
+				TargetAttributes = {
+					527CD4671ACC9DFC004425BD = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = ZF2V3XYKNR;
+					};
+					527CD47C1ACC9DFC004425BD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 527CD4671ACC9DFC004425BD;
+					};
+				};
+			};
+			buildConfigurationList = 527CD4631ACC9DFC004425BD /* Build configuration list for PBXProject "Kit Iot Wearable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527CD45F1ACC9DFC004425BD;
+			productRefGroup = 527CD4691ACC9DFC004425BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527CD4671ACC9DFC004425BD /* Kit Iot Wearable */,
+				527CD47C1ACC9DFC004425BD /* Kit Iot WearableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527CD4661ACC9DFC004425BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CD4731ACC9DFC004425BD /* Main.storyboard in Resources */,
+				527CD4781ACC9DFC004425BD /* LaunchScreen.xib in Resources */,
+				5295E6FA1AD4234E0006E073 /* Settings.bundle in Resources */,
+				527CD4751ACC9DFC004425BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527CD47B1ACC9DFC004425BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527CD4641ACC9DFC004425BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CD4921ACCA056004425BD /* WearableService.swift in Sources */,
+				527CD4701ACC9DFC004425BD /* ViewController.swift in Sources */,
+				527CD4911ACCA056004425BD /* Wearable.swift in Sources */,
+				527CD46E1ACC9DFC004425BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527CD4791ACC9DFC004425BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CD4841ACC9DFD004425BD /* Kit_Iot_WearableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527CD47F1ACC9DFC004425BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527CD4671ACC9DFC004425BD /* Kit Iot Wearable */;
+			targetProxy = 527CD47E1ACC9DFC004425BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527CD4711ACC9DFC004425BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527CD4721ACC9DFC004425BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527CD4761ACC9DFC004425BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527CD4771ACC9DFC004425BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527CD4851ACC9DFD004425BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527CD4861ACC9DFD004425BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527CD4881ACC9DFD004425BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Kit Iot Wearable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		527CD4891ACC9DFD004425BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Kit Iot Wearable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		527CD48B1ACC9DFD004425BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kit Iot WearableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kit Iot Wearable.app/Kit Iot Wearable";
+			};
+			name = Debug;
+		};
+		527CD48C1ACC9DFD004425BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kit Iot WearableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kit Iot Wearable.app/Kit Iot Wearable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527CD4631ACC9DFC004425BD /* Build configuration list for PBXProject "Kit Iot Wearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527CD4851ACC9DFD004425BD /* Debug */,
+				527CD4861ACC9DFD004425BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527CD4871ACC9DFD004425BD /* Build configuration list for PBXNativeTarget "Kit Iot Wearable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527CD4881ACC9DFD004425BD /* Debug */,
+				527CD4891ACC9DFD004425BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527CD48A1ACC9DFD004425BD /* Build configuration list for PBXNativeTarget "Kit Iot WearableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527CD48B1ACC9DFD004425BD /* Debug */,
+				527CD48C1ACC9DFD004425BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527CD4601ACC9DFC004425BD /* Project object */;
+}
